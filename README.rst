@@ -35,3 +35,6 @@ docker-compose config --service
 
 docker-compose down
 
+视频教程
+========
+`Dalton:Suricata和Snort IDS规则测试系统 <http://v.youku.com/v_show/id_XMzc4MzU1NDk1Ng==.html>`__
