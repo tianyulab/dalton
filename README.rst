@@ -19,13 +19,11 @@ Presentation
 
 git clone https://github.com/tianyulab/dalton
 
-cd dalton
-
-docker-compose build
-
 2.启动
 
-docker-compose up -d
+cd dalton
+
+docker-compose build && docker-compose up -d # If you change a service’s Dockerfile or the contents of its build directory, run docker-compose build to rebuild it
 
 docker ps
 
