@@ -23,7 +23,7 @@ git clone https://github.com/tianyulab/dalton
 
 cd dalton
 
-docker-compose build && docker-compose up -d # If you change a service’s Dockerfile or the contents of its build directory, run docker-compose build to rebuild it
+docker-compose build && docker-compose up -d # <!--- If you change a service’s Dockerfile or the contents of its build directory, run docker-compose build to rebuild it ---> 
 
 docker ps
 
@@ -36,3 +36,4 @@ docker-compose down
 视频教程
 ========
 `Dalton:Suricata和Snort IDS规则测试系统 <http://v.youku.com/v_show/id_XMzc4MzU1NDk1Ng==.html>`__
+`Dalton添加物理Sensor(Suricata/Snort) <https://v.youku.com/v_show/id_XMzc5MTExNTQyNA==.html>`__
